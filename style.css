@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
