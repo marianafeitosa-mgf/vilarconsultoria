@@ -2,68 +2,127 @@
 
 <html lang="pt-br">
 
-<head>
+<head>   
+<!-- METADADOS -->   
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta property="og:description" content="Prestação de serviços de qualidade em auditoria e asseguração, consultoria tributária e societária, consultoria de negócios e assessoria em transações.">
+
+
+<!-- GOOGLE TAG MANAGER-->
+ <script></script>
+<!-- END GOOGLE TAG MANAGER-->   
+
+<!-- Google Tag Manager (noscript) -->
+<noscript></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- LINKS --> 
+ <link rel="alternate" hreflang="en" href="#"> 
  <link rel="stylesheet" href="style.css"> 
+
+
 <title>Vilar Informática - Consultoria</title>
 </head>
 
-<body>
- <header>
+      <body>
+
+<header>
  <h1>Vilar Informática - Consultoria</h1>
  
- <ul>
- <li><a href="#">Indústrias</a></li>
- <li><a href="#">Serviços</a></li>
- <li><a href="#">Temas Atuais</a></li>
- <li><a href="#">Serviços Digitais</a></li>
- <li><a href="#">Sobre a Vilar</a></li>
- <li><a href="#">Carreira</a></li>
- <li><a href="#">Sala de Imprensa</a></li>
- </ul>
- </header>
+   <ul>
+      <li><a href="#">Indústrias</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Temas Atuais</a></li>
+      <li><a href="#">Serviços Digitais</a></li>
+      <li><a href="#">Sobre a Vilar</a></li>
+      <li><a href="#">Carreira</a></li>
+      <li><a href="#">Sala de Imprensa</a></li>
+   </ul>
+
+      <hr/>
  
- 
-<nav>
- <form>
- <label>Nome:</label>
- <input type="name" required>
+</header>
 
- <label>Email:</label>
- <input type="email" required>
-
- <label>Telefone:</label>
- <input type="tel" pattern="[0-9]{2}-[0-9]{9}">
-
- <label>Data de Nascimento:</label>
- <input type="date">
-
- <label>Deixe sua mensagem aqui:</label>
- <input type="formulary" required>
-
- <button>Enviar Mensagem</button>
- </form>
- </nav>
- 
- <main>
- <article>
+  
+ <main>   
+ <pre>
+   <article>
  <h2>Produzimos resultados sustentáveis que fazem a diferença</h2>
-    <p>Nossa abordagem incorpora quem somos:uma comuidade de pessoas empenhadas em encontrar soluções
+    <p>Nossa abordagem incorpora quem somos:uma comuidade de pessoas empenhadas em encontrar soluções <br>
        e que se unem de maneiras surpreendentes, para entregar resultados a organizações, seus clientes,
-       <i>stakeholders</i> e comunidades, o que causa um impacto positivo e duradouro em toda a cadeia de valor. 
-    </p>
+       <i>stakeholders</i> e comunidades, o que causa um impacto positivo e duradouro em toda a cadeia de valor. </p>
     <p>Nossa fórmula é simples: propomos ideia ousadas, soluções concebidas por pessoas e baseadas em  
        tecnologia, e experiências relevantes que fornecem resultados reais. 
     </p>
  </article>
+
+ </pre>
+ 
+<nav>
+
+   <legend>
+<fieldset>
+<form action="/processar-dados" method="post">
+   <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Nome Completo">
+</form>
+
+<form action="/processar-dados" method="post">
+   <label for="nome">E-mail:</label>
+      <input type="e-mail" id="e-mail" name="e-mail" placeholder="seu.email@exemplo.com">
+</form>
+
+<form action="/processar-dados" method="post">
+   <label for="nome">Telefone:</label>
+      <input type="telefone" id="quantidade" name="telefone" min="1" max="11" placeholder="Telefone">
+</form>
+
+<form action="/processar-dados" method="post">
+   <label for="nome">Data de nascimento:</label>
+      <input type="date" id="date" name="date placeholder="Data">
+</form>
+
+<label for="Assunto">Assunto:</label><br>
+   <select id="Assunto" name="assunto_msg" required>
+            <option value="">--escolha--</option>
+            <option value="dúvida">Dúvida</option>
+            <option value="orçamento">Dúvida</option>
+   </select>
+      
+<form action="/processar-dados" method="post">
+   <label for="nome">Deixe sua mensagem aqui:</label>
+      <input type="formulary" id="formulary" name="formulary placeholder="Formulário">
+</form>
+
+
+<form action="/processar-dados" method="post">
+      <input type="button" value="Enviar Formulário" onclick="alert('Olá')">
+</form>
+
+<form action="/processar-dados" method="post">
+      <input type="reset" value="Limpar Formulário" onclick="alert('Olá')">
+</form>
+
+</fieldset>
+</legend>
+
+ </form>
+ </nav>
+ </ul>
+  
  <aside>
- <h3></h3>
+ <h3>Consultoria</h3>
+   <img src="#" alt="Consultoria" width="250" height="300">
  </aside>
- </main>
+ 
+</main>
+
+ <hr/>
 
  <footer>
- <p>Vila Informática - Consultoria, 2026 </p>
+ <p>Vilar Informática - Consultoria, 2026 </p>
  </footer>
 
 </body>
